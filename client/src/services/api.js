@@ -7,7 +7,7 @@ export const savePost = async (payload) => {
         return await axios.post(`${API_URL}/post`, payload);
     } catch (error) {
         console.log('Error: ', error.message);
-        return error.response.data;
+         return error.response.data;
     }
 }
 
