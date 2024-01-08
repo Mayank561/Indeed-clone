@@ -1,9 +1,7 @@
 package com.indeed.Backend.dao;
 
+import com.indeed.Backend.model.PostModel;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.indeed.Backend.model.PostModel;
-
 public interface PostDao extends MongoRepository<PostModel, String> {
-
 }
